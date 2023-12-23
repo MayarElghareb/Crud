@@ -8,6 +8,10 @@ const LoginSchema = Yup.object().shape({
   password: Yup.string().required('Required'),
 });
 
+const generateToken = () => {
+  return 'userToken_' + Math.random().toString(36).substring(7);
+};
+
 const Login = ({ onLogin }) => {
   const navigate = useNavigate();
 
@@ -15,6 +19,10 @@ const Login = ({ onLogin }) => {
     const isAuthenticated = true;
 
     if (isAuthenticated) {
+      const userToken = generateToken();
+
+      localStorage.setItem('token', userToken);
+
       onLogin();
       navigate('/index');
     } else {
