@@ -5,6 +5,7 @@
 This project is a Member Management system designed to help organizations keep track of their members. Whether it's a fitness club, community organization, or any group that needs to manage member information, this system provides a convenient solution.
 
 ## Features
+- **Login:** simulate authentication using local storage.
 - **Add Members:** Easily add new members to the system with relevant details.
 - **View Members:** Browse through the list of members and view their information.
 - **Edit Members:** Update member details when needed. (future plan to be continued)
