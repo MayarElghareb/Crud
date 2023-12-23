@@ -15,8 +15,6 @@ const Login = ({ onLogin }) => {
     const isAuthenticated = true;
 
     if (isAuthenticated) {
-      localStorage.setItem('token', 'dummyToken');
-
       onLogin();
       navigate('/index');
     } else {
