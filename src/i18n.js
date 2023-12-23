@@ -5,21 +5,21 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translation: {
-        // English translations
-        MemberList: 'Member List', // Updated translation for "Member List"
-        // Add other translations as needed
+       
+        MemberList: 'Member List',
+ 
       },
     },
     ar: {
       translation: {
-        // Arabic translations
-        MemberList: 'قائمة الأعضاء', // Updated translation for "Member List"
-        // Add other translations as needed
+
+        MemberList: 'قائمة الأعضاء', 
+     
       },
     },
   },
-  lng: 'en', // Default language
-  fallbackLng: 'en', // Fallback language
+  lng: 'en', 
+  fallbackLng: 'en', 
   interpolation: {
     escapeValue: false,
   },
