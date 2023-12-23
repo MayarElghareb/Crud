@@ -1,0 +1,29 @@
+
+[
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "contactNumber":"0222222",
+      "membershipType": "Basic",
+      "dateOfBirth": "01/15/1990",
+      "membershipStartDate": "2023-01-01",
+      "phoneNumber": "123-456-7890",
+      "idNumber":"1"
+
+    },
+    {
+        "id": "2",
+        "name": "jackie",
+        "email": "john.doe@example.com",
+        "contactNumber":"01111111",
+        "membershipType": "Basic",
+        "dateOfBirth": "01/15/1990",
+        "membershipStartDate": "2023-01-01",
+        "phoneNumber": "123-456-7890",
+        "idNumber":"2"
+  
+      }
+   
+  ]
+  
