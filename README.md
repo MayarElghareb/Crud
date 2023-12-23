@@ -7,7 +7,7 @@ This project is a Member Management system designed to help organizations keep t
 ## Features
 - **Add Members:** Easily add new members to the system with relevant details.
 - **View Members:** Browse through the list of members and view their information.
-- **Edit Members:** Update member details when needed. 
+- **Edit Members:** Update member details when needed. (future plan to be continued)
 - **Delete Members:** Remove members from the system.
 - **Search Members:** Search members by name ,date and phone num.
 
