@@ -12,10 +12,11 @@ const Login = ({ onLogin }) => {
   const navigate = useNavigate();
 
   const onSubmit = (values, { setSubmitting }) => {
-    // Implement authentication logic
     const isAuthenticated = true;
 
     if (isAuthenticated) {
+      localStorage.setItem('token', 'dummyToken');
+
       onLogin();
       navigate('/index');
     } else {
